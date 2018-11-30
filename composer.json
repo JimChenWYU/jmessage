@@ -1,0 +1,21 @@
+{
+    "name": "jimchen/jmessage",
+    "description": "JMessage's officially supported PHP client library for accessing JMessage APIs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JimChen",
+            "email": "18219111672@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JMessage\\": "src/JMessage/"
+        }
+    }
+}
